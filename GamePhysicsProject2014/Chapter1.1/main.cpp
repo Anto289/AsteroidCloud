@@ -1,11 +1,11 @@
 #include <irrlicht.h>
 
-using namespace irr;
-
-#ifndef _IRR_WINDOWS_
+#ifndef _MSC_VER_
 #pragma comment(lib, "Irrlicht.lib")
 #pragma comment(linker, "/subsystems:windows /ENTRY:mainCRTStartup")
 #endif
+
+using namespace irr;
 
 int main()
 {
