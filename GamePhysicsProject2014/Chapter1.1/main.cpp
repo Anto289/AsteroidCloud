@@ -1,4 +1,5 @@
 #include <irrlicht.h>
+#include "BasicDemo.h"
 
 using namespace irr;
 
@@ -7,7 +8,7 @@ using namespace irr;
 #pragma comment(linker, "/subsystems:windows /ENTRY:mainCRTStartup")
 #endif
 
-int main()
+int main(int argc, char** argv)
 {
 	IrrlichtDevice *device = createDevice(video::EDT_OPENGL, core::dimension2d<u32>(640, 480));
 
