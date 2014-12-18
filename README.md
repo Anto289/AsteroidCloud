@@ -5,7 +5,7 @@ Physics based depiction of asteroid behaviour when interacting with other astero
 
 Anto
 	Initialisation
-		setup, create al of the asteroids, random position, blah blah blah
+		setup, create all of the asteroids, random position, blah blah blah
 	Narrow Phase
 		detect collisions between pairs of asteroids in the surrounding grids
 	Collision Response
