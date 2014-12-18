@@ -1,37 +1,9 @@
-﻿Build started 18/12/2014 15:47:20.
+﻿Build started 18/12/2014 17:12:38.
      1>Project "C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Chapter1.1\Chapter1.1.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Chapter1.1\..\..\Bullet\src /IC:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Chapter1.1\\Irrlicht\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\..\Temp\AsteroidProjectWin32Debug\\" /Fd"C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\..\Temp\AsteroidProjectWin32Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BasicDemo.cpp BulletOpenGLApplication.cpp DebugDrawer.cpp GameObject.cpp main.cpp
-         BasicDemo.cpp
-     1>c:\users\anto\documents\gamesdesignyear4\gamephysics\asteroidcloud\gamephysicsproject2014\chapter1.1\basicdemo.cpp(73): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
-     1>c:\users\anto\documents\gamesdesignyear4\gamephysics\asteroidcloud\gamephysicsproject2014\chapter1.1\basicdemo.cpp(73): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
-     1>c:\users\anto\documents\gamesdesignyear4\gamephysics\asteroidcloud\gamephysicsproject2014\chapter1.1\basicdemo.cpp(73): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
-         Generating Code...
-         Compiling...
-         main.cpp
-         GameObject.cpp
-         DebugDrawer.cpp
-         BulletOpenGLApplication.cpp
-     1>c:\users\anto\documents\gamesdesignyear4\gamephysics\asteroidcloud\gamephysicsproject2014\chapter1.1\bulletopenglapplication.cpp(65): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
-     1>c:\users\anto\documents\gamesdesignyear4\gamephysics\asteroidcloud\gamephysicsproject2014\chapter1.1\bulletopenglapplication.cpp(65): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
-     1>c:\users\anto\documents\gamesdesignyear4\gamephysics\asteroidcloud\gamephysicsproject2014\chapter1.1\bulletopenglapplication.cpp(65): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
-     1>c:\users\anto\documents\gamesdesignyear4\gamephysics\asteroidcloud\gamephysicsproject2014\chapter1.1\bulletopenglapplication.cpp(123): warning C4060: switch statement contains no 'case' or 'default' labels
-     1>c:\users\anto\documents\gamesdesignyear4\gamephysics\asteroidcloud\gamephysicsproject2014\chapter1.1\bulletopenglapplication.cpp(150): warning C4244: 'initializing' : conversion from 'unsigned long' to 'float', possible loss of data
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Debug\AsteroidProject.exe" /NOLOGO /LIBPATH:C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Chapter1.1\..\..\Bullet\lib /LIBPATH:"C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Chapter1.1\\Irrlicht\lib\Win32-visualStudio" /LIBPATH:"C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Chapter1.1\\Irrlicht\bin\Win64-VisualStudio" opengl32.lib BulletDynamics_vs2010_debug.lib BulletCollision_vs2010_debug.lib LinearMath_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\..\Temp\AsteroidProjectWin32Debug\AsteroidProject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Debug\AsteroidProject.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Debug\AsteroidProject.lib" /MACHINE:X86 C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\..\Temp\AsteroidProjectWin32Debug\BasicDemo.obj
-         C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\..\Temp\AsteroidProjectWin32Debug\BulletOpenGLApplication.obj
-         C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\..\Temp\AsteroidProjectWin32Debug\DebugDrawer.obj
-         C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\..\Temp\AsteroidProjectWin32Debug\GameObject.obj
-         C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\..\Temp\AsteroidProjectWin32Debug\main.obj
-         LINK : C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Debug\AsteroidProject.exe not found or not built by the last incremental link; performing full link
-     1>main.obj : warning LNK4229: invalid directive '/subsystems:windows' encountered; ignored
-     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>Link:
          Chapter1.1.vcxproj -> C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Debug\AsteroidProject.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Debug\AsteroidProject.exe;#1" /manifest C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\..\Temp\AsteroidProjectWin32Debug\AsteroidProject.exe.intermediate.manifest
      1>Done Building Project "C:\Users\Anto\Documents\GamesDesignYear4\GamePhysics\AsteroidCloud\GamePhysicsProject2014\Chapter1.1\Chapter1.1.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:08.50
+Time Elapsed 00:00:00.10
