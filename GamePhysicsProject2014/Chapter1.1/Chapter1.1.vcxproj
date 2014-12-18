@@ -77,6 +77,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <ClCompile Include="Asteroid.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Asteroid.h" />
+=======
     <ClCompile Include="BasicDemo.cpp" />
     <ClCompile Include="BulletOpenGLApplication.cpp" />
     <ClCompile Include="DebugDrawer.cpp" />
@@ -89,6 +96,7 @@
     <ClInclude Include="DebugDrawer.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="OpenGLMotionState.h" />
+>>>>>>> 14b32979aaf25f2a11bc7c5cf7a465e327fa0cc0
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
